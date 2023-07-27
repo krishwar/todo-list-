@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="qq">To-Do List Application</h1>
+    <div class="add-task">
+      <input type="text" id="taskTitle" placeholder="Task Title">
+      <input type="text" id="taskDescription" placeholder="Task Description">
+      <button onclick="addTask()">Add Task</button>
+    </div>
+    <ul id="taskList">
+      <li>
+        <input type="checkbox">
+        <span>Complete record work</span>
+        <button onclick="deleteTask(this)">Delete</button>
+        <p>Chemistry record from page 22-31.</p>
+      </li>
+      <li>
+        <input type="checkbox">
+        <span>Buy sweets</span>
+        <button onclick="deleteTask(this)">Delete</button>
+        <p>1/2kg laddu, 1kg halwa</p>
+      </li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

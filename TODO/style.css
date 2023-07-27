@@ -1,0 +1,51 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'sans-serif';
+    margin: 0;
+    padding: 0;
+    background:url(beach-1920x1080-high-definition-wallpaper-preview.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+  }
+  @keyframes qq{
+    0%{
+      transform: translateY(-100%);
+    }
+  }
+.qq {
+    text-align: center;
+    font-weight: 700;
+    animation: qq 1s ease-in-out;
+  }
+  #taskList{
+    color:white;
+    list-style-type: none;
+  }
+.add-task input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: black;
+}
+button {
+    background-color: cyan;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}  
+button:hover {
+    background-color: #45a049;
+}
+li {
+    margin-bottom: 5px;
+}
+  
